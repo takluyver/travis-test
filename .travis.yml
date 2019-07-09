@@ -5,4 +5,8 @@ env:
 
 before_install:
   - which pip
+  - pip --version
   - which pip3
+  - pip3 --version
+  - pip3 install --user awscli
+  - which aws
