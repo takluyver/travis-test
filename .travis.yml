@@ -1,0 +1,8 @@
+env:
+  global:
+    # include $HOME/.local/bin for `aws`
+    - PATH=$HOME/.local/bin:$PATH
+
+before_install:
+  - which pip
+  - which pip3
