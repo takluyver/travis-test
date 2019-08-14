@@ -12,5 +12,5 @@ before_install:
   - python3 --version
   - pip3 --version || true
   - python3 -m pip || wget -qO- https://bootstrap.pypa.io/get-pip.py | sudo -H python3
-  - pip3 install --user awscli
+  - python3 -m pip install --user awscli
   - which aws
